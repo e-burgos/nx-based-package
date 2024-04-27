@@ -1,10 +1,10 @@
 {
-  "name": "@eburgos/demo",
+  "name": "@eburgos/accounts",
   "private": true,
   "version": "0.0.0",
   "type": "module",
   "scripts": {
-    "dev": "vite",
+    "dev": "vite  --port 3002",
     "typecheck": "tsc",
     "prebuild": "npm run typecheck",
     "build": "nx vite:build",
